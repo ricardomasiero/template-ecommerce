@@ -6,7 +6,7 @@
     font-family: 'Sriracha', cursive;
 }
 .carousel-item {
-    max-height: 33vh;
+    max-height: 100vh;
     overflow-y: hidden;
 }
 li[data-target="#carouselExampleCaptions"] {
@@ -34,4 +34,17 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 
 #exemploGridBootstrap div section {
     height: 20vh;
+}
+
+.btn-primary  {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 100px;
+    padding: 1px 1px;
+    border-radius: 6%;
+    background-color: red;
+    font-size: 16px;
+    line-height: 100px ;
+    
 }
